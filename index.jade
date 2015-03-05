@@ -1,16 +1,24 @@
 //Created by david on 3/3/15.
-doctype html
-html(lang="en")
-    head
-        title Robodub: Robot cloud gamming
-    body
-        header
-            h1 Robot enable game company
-            h3 Cloud based drones and robots take control from anywhere
+extends docwrapper
 
-        #callToAction
-            img(src = '/img/IMG_8958.JPG')
-            h3 Sign up for more info!
-            p
+block title
+    | Robodub: Laser combat robots
+
+block header
+    h1.
+        Robot enable game company
+    h3.
+        Cloud based drones and robots take control from anywhere
+
+block callToAction
+    #callToAction
+        img(alt = 'rambot photo' src = 'img/IMG_8958.JPG')
+        h3.
+            Sign up for more info!
+        p.
+            Laser bot combat is multiplayer game where players take control of laser enable rovers.
+            The object is to defeat your opponent and navigate the obstacles in an 12x12 foot combat arena.
+            Think world of tanks but with lasers.
+        #get-info-form
             input(type = 'textbox', placeholder = 'enter your email address')
-
+            button(type = 'button', name = 'submit') Access Granted
