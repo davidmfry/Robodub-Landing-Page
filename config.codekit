@@ -13,6 +13,17 @@
 		"outputPathIsSetByUser": 0,
 		"outputStyle": 0
 		},
+	"\/img\/Hackster_logo.jpg": {
+		"fileType": 16384,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 39436,
+		"inputAbbreviatedPath": "\/img\/Hackster_logo.jpg",
+		"outputAbbreviatedPath": "\/img\/Hackster_logo.jpg",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
 	"\/img\/IMG_8958.JPG": {
 		"fileType": 16384,
 		"ignore": 0,
@@ -20,6 +31,39 @@
 		"initialSize": 141734,
 		"inputAbbreviatedPath": "\/img\/IMG_8958.JPG",
 		"outputAbbreviatedPath": "\/img\/IMG_8958.JPG",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/img\/Intel-logo.png": {
+		"fileType": 32768,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 93436,
+		"inputAbbreviatedPath": "\/img\/Intel-logo.png",
+		"outputAbbreviatedPath": "\/img\/Intel-logo.png",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/img\/Robodub_logo.png": {
+		"fileType": 32768,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 4843,
+		"inputAbbreviatedPath": "\/img\/Robodub_logo.png",
+		"outputAbbreviatedPath": "\/img\/Robodub_logo.png",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/img\/vs-laser-tag-logo.png": {
+		"fileType": 32768,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 150714,
+		"inputAbbreviatedPath": "\/img\/vs-laser-tag-logo.png",
+		"outputAbbreviatedPath": "\/img\/vs-laser-tag-logo.png",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
 		"processed": 0
