@@ -5,17 +5,22 @@ block title
     | Robodub: Laser combat robots
 
 block header
-    img(alt = 'robodub logo' src = 'img/Robodub_logo.png')
-    h1.
-        Robot enable game company
-    h3.
-        Cloud based drones and robots take control from anywhere
+    #logo
+        img(alt = 'robodub logo' src = 'img/Robodub_logo.png')
 
-block callToAction
+    hr(size = '1', width="80%")
+
+    h1#main-title.
+        Robot enable game company
+    h3#tagline.
+        Cloud based drones and robots you can take control from anywhere
+
+block content
     #callToAction
         img(alt = 'rambot photo' src = 'img/IMG_8958.JPG')
 
-        h3.
+
+        h2.
             Sign up for more info!
 
         p.
@@ -24,39 +29,42 @@ block callToAction
             Think world of tanks but with lasers.
 
         #get-info-form
-            input(type = 'textbox', placeholder = 'enter your email address')
+            input(type = 'textbox', name = 'emailBox', placeholder = 'enter your email address')
             button(type = 'button', name = 'submit') Access Granted
+
+        h5.
+            Dont worry we wont spam you!
 
     #social
         h2.
             Here is what people are saying
-        #comment-1.social-reaction
-            img(alt = 'hackseter logo' src = 'img/Hackster_logo.jpg')
+        //#comment-1.social-reaction
+        //    img(alt = 'hackseter logo' src = 'img/Hackster_logo.jpg')
+        //
+        //    h4.name.
+        //        Adam Awesome
+        //
+        //    p.comment.
+        //        “Entrepreneur ship it iterate sticky note agile quantitative vs.
+        //        qualitative waterfall is so 2000 and late waterfall is so 2000”
 
-            h4.name.
-                Adam Awesome
-
-            p.comment.
-                “Entrepreneur ship it iterate sticky note agile quantitative vs.
-                qualitative waterfall is so 2000 and late waterfall is so 2000”
-
-        #comment-2.social-reaction
-            img(alt = 'Intel logo' src = 'img/Intel-logo.png')
-
-            h4.name.
-                Rex St.John
-
-            p.comment.
-                “Entrepreneur ship it iterate sticky note agile quantitative vs.
-                qualitative waterfall is so 2000 and late waterfall is so 2000”
-
-        #comment-3.social-reaction
+        //#comment-2.social-reaction
+        //    img(alt = 'Intel logo' src = 'img/Intel-logo.png')
+        //
+        //    h4.name.
+        //        Rex St.John
+        //
+        //    p.comment.
+        //        “Entrepreneur ship it iterate sticky note agile quantitative vs.
+        //        qualitative waterfall is so 2000 and late waterfall is so 2000”
+        //
+        .social-reaction
             img(alt = 'Laser Tag Logo' src = 'img/vs-laser-tag-logo.png')
 
-            h4.name.
+            h4.
                 Laser Dude
 
-            p.comment.
+            p.
                 “Entrepreneur ship it iterate sticky note agile quantitative vs.
                 qualitative waterfall is so 2000 and late waterfall is so 2000”
 
